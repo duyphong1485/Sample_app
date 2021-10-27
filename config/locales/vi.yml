@@ -1,0 +1,38 @@
+vi:
+  pages:
+    nav:
+      home: "Trang Chủ"
+      help: "Hướng dẫn"
+      about: "Về tôi"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      log_out: "Đăng xuất"
+      vie: "Tiếng Việt"
+      eng: "Tiếng Anh"
+      sample_app: "Ứng dụng mẫu"
+      log_in: "Đăng nhập"
+    footer:
+      about: "Giới thiệu"
+      contact: "Liên lạc"
+      news: "Tin tức"
+      by: "bởi"
+      the: ""
+      footer_html: <small>"<a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> Được viết  bởi <a href="https://www.michaelhartl.com/">Michael Hartl</a>"</small>
+    home:
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+      welcome: "Chào mừng bạn đến với ứng dụng mẫu"
+      ruby_on_rails: "Hướng dẫn về Ruby on Rails"
+      body_html: <h2>Đây là trang chủ của ứng dụng mẫu <a href="http://www.railstutorial.org/">Hướng dẫn Ruby on Rails</a>.</h2>
+      sign_up: Đăng ký
+      sign_up_now: "Đăng ký ngay!"
+      body_sign_up: "Đây sẽ là trang đăng ký cho người dùng mới."
+    help:
+      help_html: <p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại <a href="http://www.railstutorial.org/help">Trợ giúp Hướng dẫn về Rails</a>. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <a href="http://www.railstutorial.org/book">sách <em>Hướng dẫn về Ruby on Rails</em></a>.</p>
+    remember_me:
+      remember_me: "Ghi nhớ đăng nhập"
+    about:
+      about_html: <p>Sách <a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>, là sách dạy về lập trình <a href="https://rubyonrails.org/">Ruby on Rails</a> Đây là ứng dụng mẫu cho hướng dẫn.</p>
+    contact:
+      contact_html: <p>Liên lạc với hướng dẫn Ruby On Rails về ứng dụng mẫu tại <a href="https://www.railstutorial.org/contact"> Trang liên hệ</a>.</p>
