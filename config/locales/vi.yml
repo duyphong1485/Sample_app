@@ -30,7 +30,6 @@ vi:
       body_sign_up: "Đây sẽ là trang đăng ký cho người dùng mới."
     help:
       help_html: <p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại <a href="http://www.railstutorial.org/help">Trợ giúp Hướng dẫn về Rails</a>. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <a href="http://www.railstutorial.org/book">sách <em>Hướng dẫn về Ruby on Rails</em></a>.</p>
-    remember_me:
       remember_me: "Ghi nhớ đăng nhập"
     about:
       about_html: <p>Sách <a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>, là sách dạy về lập trình <a href="https://rubyonrails.org/">Ruby on Rails</a> Đây là ứng dụng mẫu cho hướng dẫn.</p>
