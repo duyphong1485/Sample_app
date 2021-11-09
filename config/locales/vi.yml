@@ -25,7 +25,7 @@ vi:
       welcome: "Chào mừng bạn đến với ứng dụng mẫu"
       ruby_on_rails: "Hướng dẫn về Ruby on Rails"
       body_html: <h2>Đây là trang chủ của ứng dụng mẫu <a href="http://www.railstutorial.org/">Hướng dẫn Ruby on Rails</a>.</h2>
-      sign_up: Đăng ký
+      sign_up: "Đăng ký"
       sign_up_now: "Đăng ký ngay!"
       body_sign_up: "Đây sẽ là trang đăng ký cho người dùng mới."
     help:
@@ -36,3 +36,14 @@ vi:
       about_html: <p>Sách <a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>, là sách dạy về lập trình <a href="https://rubyonrails.org/">Ruby on Rails</a> Đây là ứng dụng mẫu cho hướng dẫn.</p>
     contact:
       contact_html: <p>Liên lạc với hướng dẫn Ruby On Rails về ứng dụng mẫu tại <a href="https://www.railstutorial.org/contact"> Trang liên hệ</a>.</p>
+    form:
+      password: "Mật khẩu"
+      name: "Tên người dùng"
+      password_confirmation: "Nhập lại mật khẩu"
+      create_account: "Tạo tài khoản"
+      contains_error:
+        one: "Biểu mẫu chứa %{count} lỗi"
+        other: "Biểu mẫu chứa %{count} lỗi"
+    flash:
+      success: "Chào mứng đến với Sample App!"
+      danger: "Không tìm thấy tài khoản"
