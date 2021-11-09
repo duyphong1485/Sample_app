@@ -8,6 +8,10 @@ gem "rails", "~> 6.1.4", ">= 6.1.4.1"
 
 gem "i18n", "~> 1.8", ">= 1.8.10"
 
+gem "bcrypt", "~> 3.1", ">= 3.1.16"
+
+gem "config"
+
 gem "sqlite3", "~> 1.4"
 
 gem "puma", "~> 5.0"
