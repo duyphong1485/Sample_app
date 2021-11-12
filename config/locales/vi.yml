@@ -47,3 +47,7 @@ vi:
     flash:
       success: "Chào mứng đến với Sample App!"
       danger: "Không tìm thấy tài khoản"
+      not_found: "Không tìm thấy tài khoản"
+      invalid: "Sai email hoặc mật khẩu"
+    session:
+      alert: "Tạo mới tài khoảng"
