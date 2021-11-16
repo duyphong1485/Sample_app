@@ -49,3 +49,6 @@ en:
     flash:
       success: "Welcome to the Sample App!"
       danger: "Don't find account"
+      invalid: "Invalid email / password combination"
+    session:
+      alert: "New user ?"
