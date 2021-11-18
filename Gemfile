@@ -14,6 +14,12 @@ gem "config"
 
 gem "sqlite3", "~> 1.4"
 
+gem "bootstrap-will_paginate", "~> 1.0"
+
+gem "faker", "~> 1.6", ">= 1.6.6"
+
+gem "will_paginate", "~> 3.1", ">= 3.1.8"
+
 gem "puma", "~> 5.0"
 
 gem "sass-rails", ">= 6"

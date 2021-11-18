@@ -1,18 +1,8 @@
 <% provide :title, t("pages.home.sign_up") %>
-<h1><%= t("pages.home.sign_up") %></h1>
+<% provide :button_text, t("pages.form.create_account") %>
+<h1><%= t "pages.home.sign_up" %></h1>
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <%= form_for(@user) do |f| %>
-      <%= render "shared/error_messages" %>
-      <%= f.label :name, t("pages.form.name") %>
-      <%= f.text_field :name %>
-      <%= f.label :email %>
-      <%= f.email_field :email %>
-      <%= f.label :password, t("pages.form.password") %>
-      <%= f.password_field :password %>
-      <%= f.label :password_confirmation, t("pages.form.password_confirmation") %>
-      <%= f.password_field :password_confirmation %>
-      <%= f.submit t("pages.form.create_account"), class: "btn btn-primary" %>
-    <% end %>
+    <%= render "form" %>
   </div>
 </div>
