@@ -7,6 +7,10 @@
       <%= f.email_field :email, class: "form-control" %>
       <%= f.label :password %>
       <%= f.password_field :password, class: "form-control" %>
+      <%= f.label :remember_me, class: "checkbox inline" do %>
+        <%= f.check_box :remember_me %>
+        <%= content_tag(:span, t("pages.help.remember_me")) %>
+      <% end %>
       <%= f.submit t("pages.nav.log_in"), class: "btn btn-primary" %>
     <% end %>
     <p><%= t "pages.session.alert" %> <%= link_to t("pages.home.sign_up_now"), signup_path %></p>
