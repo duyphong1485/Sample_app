@@ -7,12 +7,13 @@ en:
       user: "User"
       account: "Account"
       profile: "Profile"
-      setting: "Settings"
+      settings: "Settings"
       log_out: "Log out"
       vie: "Vietnamese"
       eng: "English"
       sample_app: "Sample App"
       log_in: "Log in"
+      all_users: "All Users"
     footer:
       about: "About"
       contact: "Contact"
@@ -30,7 +31,6 @@ en:
       body_sign_up: "This will be a signup page for new users."
     help:
       help_html: <p>Get help on the Ruby on Rails Tutorial at the <a href="http://www.railstutorial.org/help">Rails Tutorial help page</a>. To get help on this sample app, see the <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>.</p>
-      remember_me: "Remember me"
     about:
       about_html: <p>The <a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>, is a to teach web development with <a href="https://rubyonrails.org/">Ruby on Rails</a>.This is the sample app for the tutorial.</p>
     contact:
@@ -42,12 +42,29 @@ en:
       password_confirmation: "Password Confirmation"
       create_account: "Create account"
       contains_error:
-        one : "The form contains %{count} erors"
+        one: "The form contains %{count} erors"
         other: "The form contains %{count} errors"
-
+      remember_me: "Remember me"
+      save_changes: "Save changes"
     flash:
       success: "Welcome to the Sample App!"
       danger: "Don't find account"
       invalid: "Invalid email / password combination"
+      profile_update: "Profile Update"
+      please_login: "Please Login"
+      delete_user: "Delete User"
+      delete_fail: "Delete Fail"
     session:
       alert: "New user ?"
+    user:
+      delete: "Delete User"
+      alert: "You sure ?"
+    login:
+      invalid_password: "Wrong password"
+      successed: "Log in successed"
+    logout: "Log out successed"
+    edit:
+      update_profile: "Update your profile"
+      Wrong_user: "Wrong User"
+      title: "Edit user"
+      change: "change"

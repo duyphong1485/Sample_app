@@ -7,12 +7,13 @@ vi:
       user: "Người dùng"
       account: "Tài khoản"
       profile: "Hồ sơ"
-      setting: "Cài đặt"
+      settings: "Cài đặt"
       log_out: "Đăng xuất"
       vie: "Tiếng Việt"
       eng: "Tiếng Anh"
       sample_app: "Ứng dụng mẫu"
       log_in: "Đăng nhập"
+      all_users: "Tất cả người dùng"
     footer:
       about: "Giới thiệu"
       contact: "Liên lạc"
@@ -30,7 +31,6 @@ vi:
       body_sign_up: "Đây sẽ là trang đăng ký cho người dùng mới."
     help:
       help_html: <p>Nhận trợ giúp về Hướng dẫn Ruby on Rails tại <a href="http://www.railstutorial.org/help">Trợ giúp Hướng dẫn về Rails</a>. Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <a href="http://www.railstutorial.org/book">sách <em>Hướng dẫn về Ruby on Rails</em></a>.</p>
-      remember_me: "Ghi nhớ đăng nhập"
     about:
       about_html: <p>Sách <a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>, là sách dạy về lập trình <a href="https://rubyonrails.org/">Ruby on Rails</a> Đây là ứng dụng mẫu cho hướng dẫn.</p>
     contact:
@@ -43,10 +43,28 @@ vi:
       contains_error:
         one: "Biểu mẫu chứa %{count} lỗi"
         other: "Biểu mẫu chứa %{count} lỗi"
+      remember_me: "Ghi nhớ đăng nhập"
+      save_changes: "Lưu thay đổi"
     flash:
       success: "Chào mứng đến với Sample App!"
       danger: "Không tìm thấy tài khoản"
       not_found: "Không tìm thấy tài khoản"
       invalid: "Sai email hoặc mật khẩu"
+      profile_updated: "Hồ sơ đã được cập nhật"
+      please_login: "Vui lòng đăng nhập."
+      delete_user: "Xóa người dùng thành công"
+      delete_fail: "Xóa thất bại!"
     session:
       alert: "Tạo mới tài khoảng"
+    user:
+      delete: "Xóa"
+      alert: "Bạn đã chắc chắn xóa ?"
+    login:
+      invalid_password: "Sai mật khẩu"
+      successed: "Đăng nhập thành công"
+    logout: "Đăng xuất thành công"
+    edit:
+      update_profile: "Cập nhật hồ sơ"
+      Wrong_user: "Lỗi người dùng"
+      title: "Sửa thông tin"
+      change: "Thay đổi"

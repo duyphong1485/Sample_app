@@ -2,3 +2,7 @@ length:
   email: 255
   name: 50
   password: 6
+  digit_50: 50
+size:
+  digit_80: 80
+check: "1"
